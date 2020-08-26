@@ -3,7 +3,6 @@ h1 {
     font-family: 'Arimo', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-size: 40px;
-    color: black;
     margin-bottom: 0px;
     font-weight: bolder;
 
@@ -24,6 +23,8 @@ p {
 .profile{
     color: black;
 }
+
+
 .parrafoprofile {
     color: rgb(151, 150, 150);
 }
@@ -49,12 +50,8 @@ header {
     margin-bottom: 15px;
     padding: 5px;
     width: 35%;
-    border-right: 3px solid gray;
+    border-right: 1px solid rgb(175, 175, 175);
     flex-direction: column;
-}
-
-header:hover {
-    background-color: rgb(185, 196, 255);
 }
 
 .contenedor {
