@@ -83,7 +83,10 @@ header:hover {
         width: 65%;
     }
 
-
+.skills {
+    margin-left: 10px;
+    color: grey;
+}
 
 
 
