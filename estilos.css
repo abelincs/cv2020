@@ -1,0 +1,92 @@
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bolder;
+
+}
+
+h2 {
+    margin-top: 5px;
+}
+h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+p {
+    color:grey
+}
+
+.profile{
+    color: black;
+}
+.parrafoprofile {
+    color: rgb(151, 150, 150);
+}
+
+
+div {
+    margin-left: 10px;
+}
+
+* {
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 35%;
+    border-right: 3px solid gray;
+    flex-direction: column;
+}
+
+header:hover {
+    background-color: rgb(185, 196, 255);
+}
+
+.contenedor {
+    display: flex; 
+    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+    header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+
+    img {
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .todo {
+        margin-left: 15px;
+        background-color: rgb(255, 255, 255);
+        width: 65%;
+    }
+
+
+
+
+
+
+
+
