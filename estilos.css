@@ -25,6 +25,16 @@ color: black;
 font-weight: bold;
 }
 
+header h2 span {
+    font-size: 20px;
+}
+
+header div h1 {
+text-align: center;
+}
+header div h2 {
+    text-align: center;
+}
 
 
 
@@ -33,7 +43,7 @@ font-weight: bold;
 }
 
 
-div {
+.todo-skills {
     margin-left: 10px;
 }
 
@@ -84,7 +94,8 @@ header {
     }
 
 .skills {
-    color: grey;
+    color: gray;
+    font-size: 18px;
 }
 
 .active {
@@ -110,3 +121,9 @@ color: black;
     img.big {
         transform: scale(1.05);
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+.links {
+color: cornflowerblue;
+
+}
