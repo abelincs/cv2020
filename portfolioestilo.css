@@ -3,37 +3,43 @@ h1 {
     font-size: 60px;
     margin-bottom: 0px;
     font-weight: bolder;
+    color: black;
 }
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 0px;
+    color: black;
 }
 
 h3{
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
+ 
 
 * {
     font-family: 'Arimo', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
+    color: gray;
 }
 
  .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 0px;
+    margin-top: 10px;
 }
 
 .column {
-    flex: 50%;
-    max-width: 48.2%;
+    flex: 33%;
+    max-width: 32%;
     padding: 0 0px;
 }   
 
@@ -42,4 +48,5 @@ h3{
     vertical-align: middle;
     width: 100%;
 }
+
 
