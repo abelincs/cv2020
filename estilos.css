@@ -20,9 +20,12 @@ p {
     color:grey
 }
 
-.profile{
-    color: black;
+header p span{
+color: black;
+font-weight: bold;
 }
+
+
 
 
 .parrafoprofile {
@@ -57,7 +60,7 @@ header {
 .contenedor {
     display: flex; 
     flex-direction: row;
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
     
 }
@@ -81,15 +84,29 @@ header {
     }
 
 .skills {
-    margin-left: 10px;
     color: grey;
 }
 
-
-li {
-    display: inline-block;
+.active {
+background-color: rgb(255, 255, 255);
+color: black;
 }
 
+    .active h4 {
+        display: block;
+    }
+    .active p {
+        display: block;
+    }
 
 
+    article h4 {
+        display: none;
+    }
+    article p {
+        display: none;
+    }
 
+    img.big {
+        transform: scale(1.05);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);

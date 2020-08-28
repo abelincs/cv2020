@@ -6,6 +6,10 @@
     <title>Abraham Bazo - Resumé</title>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Noto+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
     <style>
     @import url(estilos.css);
     </style>
@@ -20,10 +24,10 @@
         <div class="titulo">
             <h1> <pre>Abraham Bazo</pre></h1> 
             <h2> <pre>Marketing Executive</pre></h2>
-           <p class="profile">Profile.</p> <p class="parrafoprofile"> Bachelor of Business Administration with experience in sales, marketing, events, brand management, consumer insights, pricing strategy and managing budgets. <br> Goal-driven, strong sense of teamwork and able to thrive in a dynamic and fast-moving environment. </p>
+            <p class="parrafoprofile"><span>Profile.</span> Bachelor of Business Administration with experience in sales, marketing, events, brand management, consumer insights, pricing strategy and managing budgets. <br> Goal-driven, strong sense of teamwork and able to thrive in a dynamic and fast-moving environment. </p>
   
         
-            <article>
+            <article class="todo-skills">
                 <h3>Skills</h3>
                 <article class=skills>
                     <h4>Luxury Real Estate Marketing</h4>
@@ -77,11 +81,17 @@
         </div>
 </div>
 
+<script>
 
+$('article').hover(function () {
+            $(this).toggleClass('active');
+        });
 
+$('img').hover(function () {
+            $(this).toggleClass('big');
+        });        
 
-
-
+</script>
 
 </body>
 </html>
