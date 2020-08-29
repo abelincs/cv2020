@@ -44,7 +44,7 @@ header div h2 {
 
 
 .todo-skills {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 * {
@@ -95,7 +95,7 @@ header {
 
 .skills {
     color: gray;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .active {
@@ -123,7 +123,59 @@ color: black;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
+    h1.desap {
+    color: rgb(161, 161, 161);
+    }
+
+    header h4.estrellas {
+    color: rgb(88, 88, 88) ;
+    }
+
+    .label1:after{
+        content:none; }
+    .label1:hover:after{
+        content:'★★★★★';}
+
+    .label2:after{
+        content:none;}
+    .label2:hover:after{
+        content:'★★★★★';}
+
+    .label3:after{
+        content:none;}
+    .label3:hover:after{
+        content:'★★★★★';}
+
+    .label4:after{
+        content:none;}
+    .label4:hover:after{
+        content:'★★★★★';}
+
+    .label5:after{
+        content:none;}
+    .label5:hover:after{
+        content:'★★★★☆';}
+
+    .label6:after{
+        content:none;}
+    .label6:hover:after{
+        content:'★★★★☆';}
+
+    .label7:after{
+        content:none;}
+    .label7:hover:after{
+        content:'★★★☆☆';}        
+    
+    .label8:after{
+        content:none;}
+    .label8:hover:after{
+        content:'★★★☆☆';}        
+
 .links {
 color: cornflowerblue;
 
+}
+
+.content {
+    color: red;
 }

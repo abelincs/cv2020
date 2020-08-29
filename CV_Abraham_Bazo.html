@@ -20,7 +20,7 @@
 <div class="contenedor">
 
     <header>
-        <img width="250" height="250" src="AB.png" alt="Abraham Bazo">
+        <img width="250" height="250" src="AB.png" alt="Abraham Bazo" class="image">
         <div class="titulo">
             <h1> <pre>Abraham Bazo</pre></h1> 
             <h2> <pre>Marketing Executive <br><span>Lima, Peru 🇵🇪</span></pre></h2>
@@ -31,12 +31,16 @@
                 <h3>Skills</h3>
                 <div class=skills>
                    <span>
-                    <h4>Luxury Real Estate Marketing</h4>
-                    <h4>Social Media Markeitng</h4>
-                    <h4>Event Planning</h4>
-                    <h4>Branding</h4>
-                    <h4>Media Planning</h4>
-                    <h4>Agile</h4>
+
+                    <h4><span class="label1">Luxury Real Estate Marketing </span></h4>
+                    <h4><span class="label2">Real Estate Sales/Marketing </span></h4>
+                    <h4><span class="label3">Product Marketing </span></h4>
+                    <h4><span class="label4">Digital Media </span></h4>
+                    <h4><span class="label5">Media Planning </span></h4>
+                    <h4><span class="label6">Branding </span></h4>
+                    <h4><span class="label7">Agile </span></h4>
+                    <h4><span class="label8">Market Research </span></h4>
+            
                    </span> 
                 </article>
             </article>  
@@ -124,7 +128,15 @@ $('article').hover(function () {
 
 $('img').hover(function () {
             $(this).toggleClass('big');
-        });        
+        });      
+        
+$('h1').click(function () {
+             $(this).toggleClass('desap');
+        });    
+        
+$('header h4').click(function () {
+             $(this).toggleClass('estrellas');
+        });            
 
 </script>
 
