@@ -14,7 +14,10 @@ h2 {
 h3{
     font-weight: bolder;
     font-size: 30px;
+    color: black;
 }
+
+
 
 p {
     color:grey
@@ -38,6 +41,8 @@ header div h2 {
 
 
 
+
+
 .parrafoprofile {
     color: grey
 }
@@ -45,6 +50,7 @@ header div h2 {
 
 .todo-skills {
     margin-left: 5px;
+
 }
 
 * {
@@ -63,14 +69,14 @@ header {
     margin-bottom: 15px;
     padding: 5px;
     width: 35%;
-    border-right: 1px solid rgb(175, 175, 175);
+    border-right: 0.5px solid rgb(175, 175, 175);
     flex-direction: column;
 }
 
 .contenedor {
     display: flex; 
     flex-direction: row;
-    width: 950px;
+    width: 1000px;
     margin: 0 auto;
     
 }
@@ -88,7 +94,8 @@ header {
     }
 
     .todo {
-        margin-left: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
         background-color: rgb(255, 255, 255);
         width: 65%;
     }
@@ -96,7 +103,24 @@ header {
 .skills {
     color: gray;
     font-size: 16px;
+    margin-top: 0px;
+    
 }
+
+.skills h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.languages h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+/* HOVER A EDUCATION, WORK, ETC 
 
 .active {
 background-color: rgb(255, 255, 255);
@@ -110,13 +134,20 @@ color: black;
         display: block;
     }
 
-
     article h4 {
         display: none;
     }
     article p {
         display: none;
     }
+*/
+
+.whatsappme {
+
+
+
+}
+
 
     img.big {
         transform: scale(1.05);
@@ -124,7 +155,7 @@ color: black;
     }
 
     h1.desap {
-    color: rgb(161, 161, 161);
+    color: rgb(177, 60, 60);
     }
 
     header h4.estrellas {
@@ -134,48 +165,123 @@ color: black;
     .label1:after{
         content:none; }
     .label1:hover:after{
-        content:'★★★★★';}
+        content:'★★★★★';
+        color: black}        
+
 
     .label2:after{
         content:none;}
     .label2:hover:after{
-        content:'★★★★★';}
+        content:'★★★★★';
+        color: black}        
+
 
     .label3:after{
         content:none;}
     .label3:hover:after{
-        content:'★★★★★';}
+        content:'★★★★★';
+        color: black}        
 
     .label4:after{
         content:none;}
     .label4:hover:after{
-        content:'★★★★★';}
+        content:'★★★★★';      
+        color: black}        
+
 
     .label5:after{
         content:none;}
     .label5:hover:after{
-        content:'★★★★☆';}
+        content:'★★★★☆';
+        color: black}        
 
     .label6:after{
         content:none;}
     .label6:hover:after{
-        content:'★★★★☆';}
+        content:'★★★★☆';
+        color: black}        
 
     .label7:after{
         content:none;}
     .label7:hover:after{
-        content:'★★★☆☆';}        
+        content:'★★★☆☆';
+        color: black}              
     
     .label8:after{
         content:none;}
     .label8:hover:after{
-        content:'★★★☆☆';}        
+        content:'★★★☆☆';
+        color: black}        
 
 .links {
 color: cornflowerblue;
 
 }
 
-.content {
-    color: red;
+.informacionpersonal {
+margin-top: 10px;
+margin-bottom: 10px;
 }
+
+.informacionpersonal p {
+text-align: left;
+margin-top: 0px;
+margin-left: 0px;
+padding-left: 0px;
+margin-left: 15px;
+}
+
+.informacionpersonal .ico {
+background-color: rgb(219, 219, 219);
+color: white;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 2px;
+padding-right: 2px;
+font-size: 14px;
+width: 20px;
+border-radius: 60%;
+margin-right: 10px;
+text-align: center;
+margin-top: -9px;
+display: inline-block;
+}
+
+
+
+.barra {
+    display: block;
+    padding-top: 4px;
+    margin-top: 0px;
+}
+
+.barra span {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+.barra .exp {
+    
+    background-color: rgb(173, 173, 173);
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+    .contenedor {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header {
+    border: 0;
+    padding: 0;
+    text-align: center;
+    }
+}
+
+

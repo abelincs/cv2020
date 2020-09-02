@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+
+    <style>
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+
+        .menu {
+            text-align: right;
+        }
+
+        /* CEL ACTUAL */
+        @media screen {
+            body {
+            background-color: black;
+            color: white;
+            }
+        }
+
+        /* DESKTOP */
+        @media screen and (min-width: 960px) {
+            body {
+            background-color: red;
+            color: white;
+            }
+            .container {
+            flex-direction: row;
+            }
+            header{
+                width: 30%;
+            }
+            section {
+                width: 70%;
+            }
+            .menu {
+                display: none;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenidos </h1>
+            <p class="menu">Menu
+                <i class="fa fa-bars"></i>
+            </p>
+        </header>
+        <section>
+            <h1>Lorem ipsum</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente at laudantium culpa omnis quas ex sed dolor, delectus vitae dolore, quaerat beatae! Veritatis quae, amet rerum illo facilis reiciendis aliquid! </p>
+        </section>
+    </div>
+ </body>
+</html>

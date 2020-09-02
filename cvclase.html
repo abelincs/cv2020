@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+    <style>
+        @import url(cvclase.css);
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="imagen-titulo">
+                <img class="img-avatar" alt="Nombre" src="AB.png" />
+                <div class="titulos">
+                    <h1>Luis Suarez</h1>
+                    <h2>Astronauta Space X</h2>
+                </div>
+            </div>
+            
+            <p>
+                Soy un <span class="resaltado-oscuro">Astronauta</span>
+                con 10 años de experiencia
+                <span class="resaltado-amarillo">en Javascript</span>.
+            </p>
+
+            <div class="info-personal">
+                <p>
+                    <strong>Dirección: </strong>
+                    Jr. Prueba 1227 - Lima
+                    <span class="ico">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <p>
+                    <strong>Telefono: </strong>
+                    +51 555-5555
+                    <span class="ico">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </span>
+                </p>
+                <p>
+                    <strong>E-mail: </strong>
+                    <a href="mailto:erik.porroa@gmail.com">erik.porroa@gmail.com</a>
+                    <span class="ico">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </p>
+            </div>
+        </header>
+
+        <div class="contenido">
+            <article>
+                <h4>Educación</h4>
+
+                <ul>
+                    <li>Howgarts</li>
+                    <li>MIT</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h4>Experiencia Laboral</h4>
+                <ul>
+                    <li>Google LLC</li>
+                    <li>NASA</li>
+                    <li>McDonalds</li>
+                </ul>
+            </article>
+        
+            <article>
+                <h4>Idiomas</h4>
+                <ul>
+                    <li>
+                        <h6>Esperanto</h6>
+                        <p>Aprendi esperanto en internet.</p>
+                    </li>
+                    <li>Latin</li>
+                    <li>Español</li>
+                </ul>
+            </article>
+        </div>
+    </div>
+
+    <script>
+        $('article').click(function () {
+            $(this).toggleClass('active');
+        });
+
+        $('img').click(function () {
+            $(this).toggleClass('big');
+        });
+    </script>
+</body>
+</html>
