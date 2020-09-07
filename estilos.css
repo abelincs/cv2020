@@ -39,7 +39,9 @@ header div h2 {
     text-align: center;
 }
 
-
+.fecha {
+ color: grey;
+}
 
 
 
@@ -144,18 +146,17 @@ color: black;
 
 .whatsappme {
 
-
-
 }
 
 
-    img.big {
+
+img.big {
         transform: scale(1.05);
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
     h1.desap {
-    color: rgb(177, 60, 60);
+    color: rgb(131, 131, 131);
     }
 
     header h4.estrellas {
@@ -264,9 +265,18 @@ display: inline-block;
 }
 
 .barra .exp {
-    
     background-color: rgb(173, 173, 173);
 }
+
+.skills h4:hover .exp{
+    background-color: cornflowerblue;
+}
+
+.languages h4:hover .exp{
+    background-color: cornflowerblue;
+}
+
+
 
 
 
