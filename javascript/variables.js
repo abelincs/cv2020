@@ -43,3 +43,28 @@ function saludar (mensaje){
     var nombre = prompt(mensaje);
     alert(`Bienvenido ${nombre}!`)
 }
+
+
+/* clase 9
+
+        var usuario = 'Abraham Bazo'
+        var fechanac = 1991
+        var fechaact = 2020
+        var edad = fechaact - fechanac
+        var futuro = 5
+        var edadfutura = edad + futuro
+
+
+        // console.log('hello world')
+        // console.log('otro mensaje')
+        // console.log(usuario)
+        // console.log('Tengo ' + edad + ' años')
+
+        console.warn('Hey, algo está mal')
+        console.error('Algo salió muy mal')
+        console.log('Hello, ' + usuario)
+        console.log('Nací en el año ' + fechanac)
+        console.log('Tengo ' + edad + ' años')
+        console.log('En ' + futuro + ' años tendré ' + edadfutura) 
+
+/*

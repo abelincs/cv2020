@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    
+    /* let nombre = "Lucho" // texto
+    let edad = 29 // numero
+    let isPeruano = false // Boulean
+    let isLoggedIn = false // Boulean
+    /*
+    
+
+    /* if (isPeruano == true) {
+        console.log('Eres peruano')
+    } else {
+        console.log('Eres Extranjero')
+    }
+
+    if (isLoggedIn) {
+        console.log('Ingresaste al sistema')
+    } else {
+        console.log('Por favor ingresa al sistema')
+    } */
+
+
+        /*
+        if (user == "lucho@correo.com" && 
+        password == "123456" ) {
+        console.log('Ingreso Correcto')
+        }
+        
+        if (password !== "123456") {
+            console.log('Password Incorrecto')
+        }
+        
+        if (user !== "lucho@correo.com") {
+            console.log('Usuario incorrecto')
+        }
+        */
+        
+        /*
+        function ingresarAlSistema (user, password) {
+            console.log('Ingresando al Sistema.....')
+        
+            if (user == "lucho@correo.com" && 
+            password == "123456" ) {
+                return true
+            } else {
+                return false
+            }
+        }
+
+            if (ingresarAlSistema("lucho@correo.com", "123456")) {
+                console.log('Ingresaste al Sistema')
+            } else {
+                console.log('Credenciales Incorrectas')
+            }
+            */
+        
+        /*    
+            function calcularEdad () {
+
+                let fechaActual = prompt("Qué año estamos?")
+                let fechaNacimiento = prompt("Cuando naciste?")
+
+                let edad = fechaActual - fechaNacimiento
+
+                console.log('Tienes ' + edad + ' años')
+
+                if (edad > 30) {
+                    console.log('Estas viejo, tienes ' + edad)
+                }
+
+            }
+
+            calcularEdad()
+        */
+
+        let colores = ["rojo", "azul", "verde", "amarillo"]
+        let notas = [4, 06, 11, 12, 10]
+
+        /*
+        function imprimirColor(elemento) {
+            console.log('Tenemos el color ' + elemento)
+        }
+
+        function imprimirNota(calificacion){
+            console.log('Sacaste ' + calificacion)
+        }
+
+         colores.forEach(imprimirColor)
+        notas.forEach(imprimirNota)
+
+        */
+
+        let total = 0;
+
+        function CalcularTotal (nota) {
+            total = total + nota;
+        }
+
+        notas.forEach(CalcularTotal)
+        console.log('Total: ' + total);
+
+        let promedio = total / notas.length
+        console.log('El promedio es ' + promedio)
+
+
+       
+    
+/*
+        colores.forEach(function (elemento) {
+            console.log('Tenemos el color ' + elemento)
+       })
+
+       notas.forEach(function (calificacion) {
+            console.log('Sacaste ' + calificacion + ' en el examen')
+       }) 
+*/
+       
+        
+            
+
+
+
+
+        
+    </script>
+
+</body>
+</html>
